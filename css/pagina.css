@@ -1,0 +1,239 @@
+/************ 
+//--------------------------------
+// GENERAL
+//-------------------------------
+************/
+body {
+    
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	
+	font-size: 1em;
+	line-height: 1.5em;	
+	padding-top: 80px;
+}
+
+h1 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+}
+	
+input{
+	width: 100%;	
+	margin:10px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical; 
+}
+
+
+label{
+	width: 100%;	
+	margin:10px;
+    padding: 12px;
+    
+    resize: vertical; 
+    border-radius:5px 5px ;
+    border:2px solid #FFD700;
+}
+
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+/************ 
+//-------------------------------
+// CABECERA
+//-------------------------------
+************/
+#main-header {
+	background: #333;
+	color: white;
+	height: 80px;
+	
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+	
+	
+}	
+	#main-header a {
+		color: white;
+	}
+
+	
+	
+/*
+ * Logo
+ */
+ 
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+	#logo-header:hover {
+		color: #0b76a6;
+	}
+	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+	}
+	
+
+/*
+ * Navegación
+ */
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #0b76a6;
+				}
+	
+
+
+
+/************ 
+//------------------------------
+// CONTENIDO
+//------------------------------
+************/
+
+
+	#main-content header,
+	#main-content .content {
+	    background-image:url(https://cineutcj.000webhostapp.com/imagenes/fondo3.jpg);
+	background-repeat:no-repeat;
+	
+	background-size:cover;
+	position:center;
+	padding: 125px;
+	}
+	
+
+
+/************
+//-----------------------------
+// PIE PÁGINA
+//-----------------------------
+************/
+#main-footer {
+	background: #666;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 1px;
+}
+	#main-footer p {
+		margin: 0;
+	}
+	
+	#main-footer a {
+		color: white;
+	}
+	
+	/*TABLA*/
+table {  color: #666; font-family: Palatino Linotype; width: 640px; border-collapse: collapse;}
+
+td, th { border: 10px solid transparent; height: 30px; }
+
+th { background: #D3D3D3; font-weight: bold; }
+
+td { background: #FAFAFA; text-align: center; }
+
+tr:nth-child(even) td { background: #F1F1F1; }  
+
+tr:nth-child(odd) td { background: #FEFEFE; } 
+
+tr td:hover { background: #666; color: #FFF; }
+
+/* btnagregar */
+.btnagregar{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px 50px;
+    height:80px;
+    border: 2px solid #0016b0;
+}
+.btnagregar:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+}
+
+.redondeado{
+    border-radius:5px 25px;
+    border:5px solid #800000;
+}
+
+.navpeli{
+    
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 5px;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 20px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #0b76a6;
+				}
